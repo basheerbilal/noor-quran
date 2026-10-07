@@ -1,0 +1,150 @@
+import { DhikrItem } from '../types';
+
+export const DHIKR_LIST: DhikrItem[] = [
+  {
+    id: 'subhanallahi-wa-bihamdihi',
+    title: 'Tasbih & Hamd of Allah',
+    arabic: 'سُبْحَانَ اللَّهِ وَبِحَمْدِهِ',
+    transliteration: 'Subḥānallāhi wa bi-ḥamdih',
+    translation: 'Glory be to Allah and all praise is due to Him.',
+    virtue: 'Whoever recites this 100 times in a day, his sins will be forgiven even if they were like the foam of the sea.',
+    reference: 'Sahih al-Bukhari 6405, Sahih Muslim 2691',
+    recommendedCount: 100,
+    category: 'praise',
+  },
+  {
+    id: 'sayyid-al-istighfar',
+    title: 'Sayyid al-Istighfar (Chief of Prayers for Forgiveness)',
+    arabic: 'اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ',
+    transliteration: 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā ‘abduk, wa anā ‘alā ‘ahdika wa wa‘dika ma-staṭa‘t, a‘ūdhu bika min sharri mā ṣana‘t, abū’u laka bi-ni‘matika ‘alayya wa abū’u bi-dhanbī faghfir lī fa-innahu lā yaghfiru-dh-dhunūba illā ant.',
+    translation: 'O Allah, You are my Lord; there is no deity worthy of worship except You. You created me and I am Your servant, and I abide by Your covenant and promise as best as I am able. I seek refuge in You from the evil of what I have done. I acknowledge Your blessings upon me, and I acknowledge my sin. So forgive me, for none forgives sins except You.',
+    virtue: 'Whoever says this during the day with firm conviction and dies that day before evening, will be from the people of Paradise; and whoever says it at night and dies before morning, will be from the people of Paradise.',
+    reference: 'Sahih al-Bukhari 6306',
+    recommendedCount: 1,
+    category: 'forgiveness',
+  },
+  {
+    id: 'tasbih-tahmeed-tahlil-takbeer',
+    title: 'The Four Beloved Phrases',
+    arabic: 'سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَهَ إِلَّا اللَّهُ، وَاللَّهُ أَكْبَرُ',
+    transliteration: 'Subḥānallāh, wal-ḥamdu lillāh, wa lā ilāha illallāh, wallāhu akbar',
+    translation: 'Glory be to Allah, and all praise is for Allah, and there is no deity worthy of worship except Allah, and Allah is the Greatest.',
+    virtue: 'The Prophet (ﷺ) said: "The most beloved words to Allah are four: Subhanallah, Al-Hamdulillah, La ilaha illallah, and Allahu Akbar."',
+    reference: 'Sahih Muslim 2137',
+    recommendedCount: 33,
+    category: 'praise',
+  },
+  {
+    id: 'la-hawla-wa-la-quwwata',
+    title: 'Treasure of Paradise',
+    arabic: 'لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ',
+    transliteration: 'Lā ḥawla wa lā quwwata illā billāh',
+    translation: 'There is no power and no strength except with Allah.',
+    virtue: 'The Messenger of Allah (ﷺ) said: "Shall I not direct you to a treasure from the treasures of Paradise? Say: La hawla wa la quwwata illa billah."',
+    reference: 'Sahih al-Bukhari 6384, Sahih Muslim 2704',
+    recommendedCount: 10,
+    category: 'protection',
+  },
+  {
+    id: 'hasbiyallahu-la-ilaha-illa-huwa',
+    title: 'Sufficiency in Allah',
+    arabic: 'حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ',
+    transliteration: 'Ḥasbiyallāhu lā ilāha illā huwa ‘alayhi tawakkaltu wa huwa Rabbul-‘Arshil-‘Aẓīm',
+    translation: 'Allah is sufficient for me; there is no deity worthy of worship except Him. Upon Him I have relied, and He is the Lord of the Tremendous Throne.',
+    virtue: 'Whoever recites this seven times in the morning and evening, Allah will suffice him for all that concerns him in this world and the Hereafter.',
+    reference: 'Surah At-Tawbah (9:129), Sunan Abi Dawud 5081',
+    recommendedCount: 7,
+    category: 'morning_evening',
+  },
+  {
+    id: 'bismillahilladhi-la-yadurru',
+    title: 'Protection from Harm',
+    arabic: 'بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ',
+    transliteration: 'Bismillāhilladhī lā yaḍurru ma‘asmihī shay’un fil-arḍi wa lā fis-samā’i wa huwas-Samī‘ul-‘Alīm',
+    translation: 'In the name of Allah, with whose name nothing can cause harm in the earth or in the heaven, and He is the All-Hearing, the All-Knowing.',
+    virtue: 'Whoever recites this three times each morning and evening, nothing will harm him.',
+    reference: 'Sunan at-Tirmidhi 3388, Sunan Abi Dawud 5088',
+    recommendedCount: 3,
+    category: 'protection',
+  },
+  {
+    id: 'raditu-billahi-rabba',
+    title: 'Contentment with Faith',
+    arabic: 'رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا',
+    transliteration: 'Raḍītu billāhi Rabban, wa bil-Islāmi dīnan, wa bi-Muḥammadin (ṣallallāhu ‘alayhi wa sallam) Nabiyyā',
+    translation: 'I am pleased with Allah as my Lord, with Islam as my religion, and with Muhammad (peace and blessings of Allah be upon him) as my Prophet.',
+    virtue: 'Whoever says this three times in the morning and evening, Allah has promised to make him content on the Day of Resurrection.',
+    reference: 'Sunan at-Tirmidhi 3389, Sunan Abi Dawud 5072',
+    recommendedCount: 3,
+    category: 'morning_evening',
+  },
+  {
+    id: 'astaghfirullah-wa-atubu-ilayh',
+    title: 'Daily Repentance (Istighfar)',
+    arabic: 'أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ',
+    transliteration: 'Astaghfirullāha wa atūbu ilayh',
+    translation: 'I ask Allah for forgiveness and I repent to Him.',
+    virtue: 'The Messenger of Allah (ﷺ) said: "By Allah, I seek forgiveness of Allah and turn to Him in repentance more than seventy times a day."',
+    reference: 'Sahih al-Bukhari 6307',
+    recommendedCount: 100,
+    category: 'forgiveness',
+  },
+  {
+    id: 'subhanallahi-wa-bihamdihi-subhanallahil-azeem',
+    title: 'Two Beloved Statements',
+    arabic: 'سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ',
+    transliteration: 'Subḥānallāhi wa bi-ḥamdih, Subḥānallāhil-‘Aẓīm',
+    translation: 'Glory be to Allah and all praise is due to Him; Glory be to Allah, the Magnificent.',
+    virtue: 'Two phrases are light on the tongue, heavy on the scales, and beloved to the Most Merciful: Subhanallahi wa bihamdihi, Subhanallahil-Azeem.',
+    reference: 'Sahih al-Bukhari 6682, Sahih Muslim 2694',
+    recommendedCount: 33,
+    category: 'praise',
+  },
+  {
+    id: 'allahumma-salli-ala-muhammad',
+    title: 'Salawat on the Prophet ﷺ',
+    arabic: 'اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ',
+    transliteration: 'Allāhumma ṣalli wa sallim ‘alā Nabiyyinā Muḥammad',
+    translation: 'O Allah, send peace and blessings upon our Prophet Muhammad.',
+    virtue: 'The Prophet (ﷺ) said: "Whoever sends blessings upon me once, Allah will send blessings upon him tenfold and erase ten sins from him."',
+    reference: 'Sunan an-Nasa’i 1297, Sahih al-Bukhari',
+    recommendedCount: 10,
+    category: 'daily',
+  },
+  {
+    id: 'ya-hayyu-ya-qayyum',
+    title: 'Supplication for Relief & Rectification',
+    arabic: 'يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ، أَصْلِحْ لِي شَأْنِي كُلَّهُ، وَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ',
+    transliteration: 'Yā Ḥayyu yā Qayyūmu bi-raḥmatika astaghīth, aṣliḥ lī sha’nī kullah, wa lā takilnī ilā nafsī ṭarfata ‘ayn',
+    translation: 'O Ever-Living, O Sustainer of all existence, by Your mercy I seek assistance. Rectify for me all of my affairs, and do not leave me to myself even for the blink of an eye.',
+    virtue: 'The Messenger of Allah (ﷺ) advised his daughter Fatima (may Allah be pleased with her) to say this in the morning and evening.',
+    reference: 'Mustadrak al-Hakim, Sahih at-Targhib 661',
+    recommendedCount: 1,
+    category: 'morning_evening',
+  },
+  {
+    id: 'rabbana-atina-fid-dunya',
+    title: 'The Comprehensive Quranic Dua',
+    arabic: 'رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ',
+    transliteration: 'Rabbanā ātinā fid-dunyā ḥasanatan wa fil-ākhirati ḥasanatan wa qinā ‘adhāban-nār',
+    translation: 'Our Lord, give us in this world that which is good and in the Hereafter that which is good, and protect us from the punishment of the Fire.',
+    virtue: 'Anas (may Allah be pleased with him) reported that this was the most frequent supplication made by the Messenger of Allah (ﷺ).',
+    reference: 'Surah Al-Baqarah (2:201), Sahih al-Bukhari 6389',
+    recommendedCount: 3,
+    category: 'daily',
+  },
+];
+
+/**
+ * Returns the recommended daily Dhikr based on the day of the year.
+ * This guarantees a consistent daily rotation for all users on the same calendar day,
+ * while cycling through the authentic collection.
+ */
+export function getDailyDhikr(date: Date = new Date()): DhikrItem {
+  const startOfYear = new Date(date.getFullYear(), 0, 1);
+  const diff = date.getTime() - startOfYear.getTime();
+  const oneDay = 1000 * 60 * 60 * 24;
+  const dayOfYear = Math.floor(diff / oneDay);
+  const index = Math.abs(dayOfYear) % DHIKR_LIST.length;
+  return DHIKR_LIST[index];
+}

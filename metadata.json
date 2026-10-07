@@ -1,0 +1,6 @@
+{
+  "name": "NOOR — Quran Reading Experience",
+  "description": "Read and explore the Holy Quran with translations, audio recitation, daily Ayah reading goals, streaks tracking, prayer times, daily dhikr, daily hadith, daily dua supplications, personal reflection notes, and tafsir exegesis.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
